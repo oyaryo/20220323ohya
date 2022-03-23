@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 20px 0 0 20px;
+  color: #00277e;
+}
+
+.menu {
+  margin: 0 0 0 auto;
+}
+
+ul {
+  display: flex;
+  margin: 10px 15px 0 0;
+  color: #00277e;
+}
+
+li {
+  padding: 15px 10px 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+  position: relative;
+  font-family: sans-serif;
+}
+
+.main-img img {
+  margin: 100px 0 0 auto;
+  display: block;
+  width: 50%;
+  z-index: 10;
+}
+
+.main-ttl {
+  position: absolute;
+  top: 60%;
+  font-size: 400%;
+}
+
+.main-box {
+  position: absolute;
+  background: #00277e;
+  width: 900px;
+  height: 200px;
+  z-index: -10;
+}
